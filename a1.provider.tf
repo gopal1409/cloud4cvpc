@@ -17,7 +17,7 @@ terraform {
       hostname="app.terraform.io"
       organization = "cloud4cvpc" 
       workspace {
-        name = "vpc-migration"
+        prefix = "vpc-"
       }
     }
 
